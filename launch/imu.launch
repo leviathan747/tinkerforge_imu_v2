@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+<!--  Locate UID from TinkerForge BrickViewer -->
+<node pkg="tinkerforge_imu_v2" type="tinkerforge_imu2.py" name="tinkerforge_imu_v2" output="screen">
+        <param name="uid" value="6Dc8sH"/>
+        <param name="frame_id" value="imu"/>
+</node>
+</launch>
